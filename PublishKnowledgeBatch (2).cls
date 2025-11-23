@@ -1,6 +1,6 @@
 global class PublishKnowledgeBatch implements Database.Batchable<SObject>, Schedulable {
 
-//  Start: Query for relevant Knowledge__kav records
+// Start: Query for relevant Knowledge__kav records
 
     global Database.QueryLocator start(Database.BatchableContext BC) {
 
